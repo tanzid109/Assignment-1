@@ -265,6 +265,7 @@ nav > ul{
     display: flex;
     gap: 16px;
     justify-items: center;
+    margin-left: 180px;
 }
 .submit-btn-area{
     width: 548px;
@@ -287,13 +288,32 @@ nav > ul{
     border-radius: 8px;
     border-style: none;
 }
+
+.support{
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+}
 .main-support{
-    background-image:url(../assets/handshake.jpg);
-    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
+    background-position: center;
     width: 1140px;
     height: 314px;
     margin-top: 50px;
     padding: 64px 48px 64px 48px;
     border-radius: 16px;
+    text-align: center;
+    align-items: center;
+}
+.support-head{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.support-description{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
     text-align: center;
 }
