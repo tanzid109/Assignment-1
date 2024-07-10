@@ -221,6 +221,7 @@ nav > ul{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    margin-bottom: 44px;
 }
 .m-target{
     display: flex;
@@ -273,11 +274,11 @@ nav > ul{
 .submit-btn-area{
     width: 548px;
     height: 57px;
+    font-size: 16px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     padding: 19px 20px 19px 20px;
-    opacity: 0.7;
 }
 .btn-4{
     width: 120px;
