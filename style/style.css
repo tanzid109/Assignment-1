@@ -51,6 +51,10 @@
 nav > ul{
     list-style: none;
 }
+.Contact-l{
+    text-decoration: none;
+    color: white;
+}
 .banner{
     text-align: center;
     background-image: url(../assets/Hero-bg.png);
@@ -225,6 +229,7 @@ nav > ul{
     justify-content: space-evenly;
     gap: 24px;
     align-items: center;
+    margin-bottom: 48px;
 }
 .what-target{
     padding: 40px;
@@ -293,13 +298,12 @@ nav > ul{
     text-align: center;
     padding: 50px;
     align-items: center;
+    margin: 2px auto;
 }
 .main-support{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
     background-position: center;
-    width: 1140px;
-    height: 314px;
-    margin-top: 50px;
+    margin-top: 50px auto;
     padding: 64px 48px 64px 48px;
     border-radius: 16px;
     text-align: center;
@@ -316,4 +320,17 @@ nav > ul{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+}
+.footer-main{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 111px auto;
+}
+.social-link{
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
 }
